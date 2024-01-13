@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://github.com/AMARAVADIBINDU" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/amaravadi-bindu-48078a214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/22_abindu?igsh=OGQ5ZDc2ODk2ZA=="target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Bindu Amaravadi</div>
+          <div class="text-three">Machine Learning Enthusiastic</div>
+          
+        </div>
+      
+        <div class="button">
+          <a href="hireme.html" target="_blank">
+          <button>Hire Me</button>
+        </a>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/green.jpeg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Introduction</div>
+            <p>
+            Hello, I'm Amaravadi Bindu, currently in my fourth year pursuing a B.Tech degree at Gokaraju Rangaraju Institute of Engineering and Technology (GRIET).
+             I have maintained a CGPA of 8.93 up to the end of my third year. Additionally, I proudly serve as the Class Representative for the IT-A section at GRIET. 
+             As part of my involvement in the Advanced Academic Center (AAC), I've had the privilege to mentor my juniors in the domain of machine learning, guiding and assisting them in completing their projects.
+              Moreover, I hold the position of Training and Development Coordinator at the AAC in GRIET. I am passionate about fostering learning and growth among my peers, and I'm committed to contributing to the academic and professional development within my institution.
+            </p>
+            <div class="button">
+              <a href="https://drive.google.com/file/d/13pY9c3xQ8KcfXTVTXxlrwEzUpthFCUGA/view?usp=drive_link" target="_blank">
+              <button>Download Resume</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Python</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Pega PRPC</div>
+              <div class="per">50%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Machine Learning</div>
+              <div class="per">65%</div>
+            </div>
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">50%</div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="Projects" id="Projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="topic">CreditCard Fraud Detection</div>
+            <p>Designed and implemented a  robust credit card fraud detection  system, employing  machine  learning algorithms and data  preprocessing techniques.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-rss"></i>
+            </div>
+            <div class="topic">Automated Fish Feeder</div>
+            <p>Engineered an Automated Fish  Feeder system integrated with the Blink app, showcasing my  proficiency in IoT
+              technology.We built a model that can be controlled remotely.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-ambulance"></i>
+            </div>
+            <div class="topic">Accident Risk Score Prediction</div>
+            <p>Predicted accident risk score for particular postal code using machine learning and we built use interface for realtime application </p>
+          </div>
+          </div>
+        </div>
+      
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Email : amaravadibindu@gmail.com</p>
+          <p>Address:1-71,Nidhanapuram,Madhira,Khammam,Telanagana,India</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
